@@ -39,7 +39,6 @@ nav ul li {
 padding-left: 10px;
  }
  .carousel-inner > .item{
- 	min-height: 100vh;
  	max-height:1000px; 
  }
 h1 { 
@@ -50,7 +49,7 @@ h1 {
     line-height: 1.2;
   }
 .menuSup{
-    margin-top: 30px;
+    margin-top: 3px;
     }
 .header-enlace{
       text-align: center;
@@ -147,9 +146,9 @@ footer h4{    font-size: 12px;
     font-weight: normal;
   color: #e6e6e6;}
   .navbar,.navbar-default .navbar-collapse, .navbar-default .navbar-form {
-    background-color: #2467cce0;
-    background: #2467cce0;
-    border-color: #2467cce0;
+     background-color: #2467cc;
+    background: #2467cc;
+    border-color: #2467cc;
 
 }
 

@@ -43,7 +43,7 @@
 					<h3>tu aporte salva vidas!</h3>
 					</div>
 				</div>
-				<div class="item">
+				<!--<div class="item">
 				 	<img src="images/slider/slider02.jpg" alt="niños haciendo quimioterapia">
 					<div class="carousel-caption d-none d-md-block">
 					<h1>Renovación de Unidades de Oncología Infantil</h1>
@@ -57,16 +57,16 @@
 					<h3>Que hacemos con su aporte!</h3>
 					</div>
 				</div>
-			<!-- Left and right controls -->
+			 Left and right controls 
 				<a class="left carousel-control" href="#myCarousel" data-slide="prev"></a>
-				<a class="right carousel-control" href="#myCarousel" data-slide="next"></a>
+				<a class="right carousel-control" href="#myCarousel" data-slide="next"></a>-->
 			</div>
-				<!-- Indicators -->
+				<!-- Indicators 
 			<ol class="carousel-indicators">
 				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 				<li data-target="#myCarousel" data-slide-to="1"></li>
 				<li data-target="#myCarousel" data-slide-to="2"></li>
-			</ol>
+			</ol>-->
 		</div>
 		<div class="bac-gris container-fluid ">
 		<div class="container">
@@ -105,6 +105,17 @@
 			</div>
           </div>
 		</div>
+
+		<div id="map" style="width: 400px; height: 300px"></div> 
+		<script type="text/javascript"> 
+
+		var map = new GMap(document.getElementById("map")); 
+		map.setMapType(G_SATELLITE_TYPE); 
+		map.addControl(new GLargeMapControl()); 
+		map.addControl(new GMapTypeControl()); 
+		map.centerAndZoom(new GPoint (-3.688788414001465, 40.41996541363825), 3); 
+
+		</script>
 		<footer>
 			<div class="container color-fondo">
 				<div class="row">
@@ -139,5 +150,7 @@
 		<script src="sjs/jquery-3.3.1.js"></script>
 		<script src="sjs/jquery-migrate-1.4.1.js"></script>
 		<script src="sjs/bootstrap.js"></script>
+		<script src="http://maps.google.com/maps?file=api&v=1&key=AIzaSyCZPEcuipbhyvOX3SLl5hrOiQBsN1tW0Lg" type="text/javascript"></script>
+
 	</body>
 </html>
