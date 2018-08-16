@@ -21,9 +21,10 @@ img .logoSup {
     margin-bottom: -4px;
 }
  .bajadaLogo{
-	max-width: 300px;
-    padding: 20px;
+	   max-width: 265px;
+    padding: 1px 0px;
     width: 100%;
+    margin-top: 17px;
 }
 
 nav {
