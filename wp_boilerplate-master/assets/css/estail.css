@@ -1,0 +1,209 @@
+body{    
+    font-family: "Caveat", sans-serif;
+    margin: 0;
+}
+.container-head{
+    width: 100%;
+    background-image: url(images/bg.jpg);
+    padding: 95px;
+    background-size: 100%;
+    color: #fff;
+    background-position: 0;
+    min-height: 300px;
+}
+header { 
+  max-width: 950px;
+  color: #fff; 
+  margin: 0 auto;
+     }
+img .logoSup {     
+    max-width: 200px;
+    margin-bottom: -4px;
+}
+ .bajadaLogo{
+	   max-width: 265px;
+    padding: 1px 0px;
+    width: 100%;
+    margin-top: 17px;
+}
+
+nav {
+    float: right;
+}
+nav ul { 
+    list-style: none;
+    display: -webkit-inline-box;
+    float: right; 
+        margin-right: 10px;
+  }
+nav ul li { 
+padding-left: 10px;
+ }
+ .carousel-inner > .item{
+ 	max-height:1000px; 
+ }
+h1 { 
+    max-width: 161px;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: normal;
+    line-height: 0.8;
+  }
+.menuSup{
+    margin-top: 3px;
+    }
+.header-enlace{
+      text-align: center;
+}
+.header-enlace a{
+    color: #fff;
+    background-color: #0cb1e2;
+    padding: 6px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 12px;
+}
+.navbar-right{
+	    padding: 15px 0 0 0;
+}
+.verde{
+      background-color: #2cce22 !important;
+}
+p { 
+    font-size: 12px;
+  
+    max-width: 550px;
+    margin: 10px auto;
+}
+.contenido{
+  max-width: 950px;
+  margin: 0 auto;
+  text-align: center;
+}
+ h2 {
+    font-size: 19px;
+    text-align: center;
+      }
+.contenido p{
+font-size: 11px;
+line-height: 18px;
+}
+.bac-gris{
+    background-color: #f7f7f7;
+    padding: 20px 0;
+    border-top: 1px solid #d8d8d8;
+    border-bottom: 1px solid #d8d8d8;
+    text-align: center;
+}
+.bac-gris section a{
+    background-color: #198daf;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #046e8e;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    max-width: 100px;
+    margin: 0 auto;
+}
+.formularios{
+    max-width: 793px;
+margin: 0 auto;
+padding-left: 70px;
+}
+.formularios section{
+  min-width: 236px;
+  margin-bottom: 25px;
+}
+.formularios section p{
+    text-align: left;
+    line-height: 13px;
+}
+.formularios section a{
+    font-size: 11px;
+    text-decoration: none;
+    color: #198daf;
+}
+.formularios section strong{    
+  font-weight: 800;
+}
+form button,
+form input{
+    background: transparent;
+    border: 1px solid #333;
+    border-radius: 3px;
+    font-size: 11px;
+    padding: 6px;
+}
+footer{
+  background-color: #333;
+  padding: 6px;
+  text-align: center;
+}
+footer aside{
+  max-width: 536px;
+}
+footer h4{    font-size: 12px;
+    font-weight: normal;
+  color: #e6e6e6;}
+  .navbar,.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    background-color: #ffffff;
+    background: #ffffff;
+    border-color: #ffffff;
+
+}
+
+.navbar li { color: #000 } 
+.navbar-default .navbar-nav>li>a {
+   /* color: #fff;*/
+}
+.navbar-brand>img {
+    max-width: 55px;
+        float: left;
+}
+body >.jumbotron {
+    background-image: url(images/bg.jpg);
+    color: #fff;
+    padding: 90px 10px;;
+}
+.jumbotron h1{
+  font-size: 36px;
+}
+.jumbotron p{
+  font-size: 12px;
+}
+#myCarousel > a,
+#myCarousel > a{
+background-image: -webkit-linear-gradient(left, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 100%);
+background-image: -o-linear-gradient(left, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 100%);
+background-image: linear-gradient(to right, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 100%); */
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#00000000', GradientType=1);
+background-repeat: repeat-x; 
+}
+.item img{
+      margin: 0 auto;
+}
+.color-fondo{
+	background: #fff;
+}
+.blog-header{
+    padding-top: 111px;
+    padding-bottom: 1.25rem;
+    margin-bottom: 2rem;
+    border-bottom: .05rem solid #eee;}
+.imagen-referencia{
+    max-width: 950px;
+    width: 100%;
+    }
+   .iframe-mapa{
+   	max-width: 600px;
+   	width: 100%;
+   	min-height: 350px;
+   }
+   .navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 0px;
+    font-size: 18px;
+    line-height: 20px;
+}
